@@ -1,0 +1,45 @@
+{
+    "raven": {
+        "default": [
+            "Up ahead there should be a frog in a rain coat, make it up the platform and you shall find your way."
+        ],
+        "secret": [
+            "I heard these birds love to steal things...they usually hide them in their nest",
+            "and they are sensitive to sounds."
+        ]
+    },
+    "frog": {
+        "default": [
+            "I heard you’re after the moon flakes. Find my brother, he resides in the swamp regions, and he has what you need."
+        ]
+    },
+        "willow": {
+        "default": [
+            "Past the frog that sleeps, you'll find a drone. It will guide you past the city gates."
+        ],
+        "secret": [
+            "The bog reveals its secrets to those who do not run from the shaking ground. Look carefully at what lies ahead, not every lily is the same."
+        ]
+    },
+    "brother": {
+        "default": [
+            "Brother sent you, didn't he? I knew someone brave would come. This is yours."
+        ]
+    },
+    "drone": {
+        "default": [
+            "After the Moon Flakes huh?...I'll help you pass the city gates."
+        ]
+    }, 
+        "holo": {
+        "default": [
+            "Past the sound of dripping water you will find what you seek."
+        ],
+        "secret": [
+            "Something in this area has been slowly winning against the drones. Drip by drip."
+        ]
+    }
+    
+
+    
+}

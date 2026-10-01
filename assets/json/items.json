@@ -1,0 +1,389 @@
+{
+    "keyCard": {
+        "weight": "light",
+        "formText": {
+            "cat": "Its a keyCard?",
+            "dog": "It's a card",
+            "human" : "It might work on the key card panel"
+        },
+        "tooHeavyText": ""
+    },
+    "clippers": {
+        "weight": "light",
+        "formText": {
+            "cat": "clippers?",
+            "dog": "clippers?",
+            "human": "These are wire clippers?"
+        }
+    },
+    "garbage": {
+        "weight": "medium",
+        "formText": {
+            "cat": "This is too heavy for me...",
+            "dog": "This is stinky...but doesn't look that heavy",
+            "human": "Ugh, who didn't throw out the garbage.."
+        },
+        "tooHeavyText": "This is too heavy for me..."
+    },
+    "disposer": {
+        "weight": "interact",
+        "text" : "It's stinky..."
+    },
+    "terminal": {
+        "weight": "interact",
+        "text" : "Seems like it needs something..."
+    },
+    "stickyNote1": {
+        "weight": "interact",
+        "text" : "Wilson, watch over the controls while I'm gone. The solution has to sit longer so DO NOT enter the sequence while I'm gone and make sure no one else does."
+    },
+    "stickyNote2": {
+        "weight": "interact",
+        "text" : "Hey Steve, left for lunch early. There shouldn't be anyone else here. I changed the code just in case, its the direction of our brainstorm :)"
+    },
+    "electricalPanel": {
+        "weight":"interact",
+        "text" : "There's a small tear in the wire..."
+    },
+    "ventCover": {
+        "weight":"interact",
+        "text" : "open"
+    },
+    "guard": {
+        "textForm": {
+            "cat": "Shoo, Shoo...",
+            "dog": "Shoo, Shoo...",
+            "human" : "You're not authorized past this point."
+        },
+        "firstSequence": "Ugh what is this smell? Did someone forget to take out the garbage again?",
+        "doneSequence" : "Ah, much better I can actually smell again.",
+        "secondSequence" : "Huh! What is happening? I have to go check!",
+        "problem" : "I thought Wilson was supposed to be here. I'll stop the alarm."
+    },
+    "lockers": {
+        "weight": "branching",
+        "forms" : {
+            "cat": "Nothing interesting...",
+            "dog": "My nose says nothing useful. My nose is never wrong.",
+            "human": "I shouldn't go through peoples things...actually given what I saw I dont' want to."
+        }
+        
+    },
+    "fingerPrint": {
+        "weight": "branching",
+        "forms": {
+            "cat": "Some kind of scanner... my paw's too sophisticated for this.",
+            "dog": "I keep pressing my nose on it. Nothing happens.",
+            "human": "A fingerprint scanner. Do i have a fingerprint? Let's try it."
+        }
+    },
+    "reception": {
+        "weight": "branching",
+        "forms": {
+            "cat": "Receptionist: Aw hello little guy~ You're just so pretty~",
+            "dog": "Receptionist: Hey buddy~ Aren't you just so cute.",
+            "human": "Receptionist: Oh hello, any and all personnel must scan before entering."
+        }
+    },
+    "logistics": {
+        "weight": "branching",
+        "forms":{
+            "cat": "Looks like a schedule?",
+            "dog": "Smells like seawater",
+            "human" : "It's a schedule for the next available ship...I better hurry, the next one is close to home."
+        }
+    },
+    "dualID": {
+        "weight" : "branching",
+        "forms" : {
+            "cat" : "Can't quite see...",
+            "dog" : "What is that?",
+            "human" : "Looks like I need two cards..."
+        }
+    },
+    "scientist": {
+        "weight": "branching",
+        "forms" : {
+            "cat": "Dr. Kreig: You look a lot like subject 407...Hm, probably someone's cat from the office...",
+            "dog": "Dr. Kreig: Out! OUT. I have three deadlines, a cracked tank, and now a dog wandering my lab?",
+            "human": "Dr. Kreig: Haven't seen you before... new hire? Good. Make yourself useful — log this in the system. Tank B is cracking, I need a replacement order filed before someone or something breaks it the rest of the way. A strong enough impact and the whole thing goes. I don't have time to deal with that right now."
+        },
+        "broken": "Dr. Kreig: What was that?! YOU! TANK B! Do you know what was IN there?! Years of work! YEARS! Get out of my sight before I — just GET OUT!"
+    },
+    "employee": {
+        "weight":"branching",
+        "forms": {
+            "cat": "Employee: Aw, hey little guy... you lost? Shoo, shoo. If my supervisor sees a cat in here you're going in the cages.",
+            "dog": "Employee: I swear this place gets weirder every single day... a dog now? Shoo buddy, don't want you ending up in the cages too.",
+            "human": "New hire? Haven't seen you around before. Remember we all keep our IDs on person and don't bother Kenji over there, he's got a deadline. He's misplaces things when he's panicking..."
+        }
+    },
+    "fridge" : {
+        "weight" : "branching",
+        "forms": {
+            "cat": "Smells strange, it's also cold...",
+            "dog": "So many weird scents...humans use weird stuff",
+            "human": "Specimen jars, vials, tissue sample?...Nothing useful."
+        }
+    },
+    "tubes": {
+        "weight": "branching",
+        "forms":{
+            "cat": "Doesn't look drinkable...",
+            "dog": "Smells like the fridge but stronger...",
+            "human": "Tank B. That crack looks bad...Dr was worried about this"
+        }
+    },
+    "kenjiAnim": {
+        "weight": "branching",
+        "forms":{
+            "cat":"Shoo. Not now little guy.",
+            "dog": "Hey buddy, not now.",
+            "human": "Don't think I've seen you before...I'm swamped right now, got a meeting soon and I'm waiting on the print job. Don't touch it."
+        },
+        "email" : "That print job Hikari requested better not interfere with my print job...",
+        "after" : "Hey — HEY. Did you just jam that?! I needed that printer for my meeting, do you have any idea how long I've been waiting?! How did Diego even use this wrench... you know what? I'm writing you up for this AND leaving this for Diego. I don't have time."
+    },
+    "books": {
+        "weight":"branching",
+        "forms": {
+            "cat": "I've seen humans just stare at these before...",
+            "dog": "Why do humans love these weird things.",
+            "human": "Just a bookshlef, nothing useful..."
+        }
+    },
+    "awards": {
+        "weight": "branching",
+        "forms": {
+            "cat": "Some weird stuff...",
+            "dog": "Is that a ball up there oh, fun!",
+            "human": "Looks like some books and awards, nothing useful"
+        }
+    },
+    "printer": {
+        "weight": "branching",
+        "forms": {
+            "cat": "It's moving really weird, what is this?",
+            "dog": "Weird sounds can be heard what is that?",
+            "human": "Its the printer, kenji said I shouldn't touch it."
+        }
+    },
+    "pc": {
+        "weight": "branching",
+        "forms": {
+            "cat": "I see humans use this, what is it?",
+            "dog": "ohh, I see blinking what is that?",
+            "human": "It's password protected."
+        }
+    },
+    "paper": {
+        "weight": "light",
+        "formText": {
+            "cat": "Weird ball?",
+            "dog": "Ohh a ball?",
+            "human": "This is Kenji's scrap paper"
+        }
+    },
+    "accessCard1" : {
+        "weight": "light",
+        "formText": {
+            "cat": "A card",
+            "dog": "A card",
+            "human": "I think Kenji dropped this earlier when he got mad..."
+        }
+    },
+    "accessCard2" : {
+        "weight": "light",
+        "formText": {
+            "cat": "A card",
+            "dog": "A card",
+            "human": "I think Kenji dropped this earlier when he got mad..."
+        }
+    },
+    "wrench": {
+        "weight": "heavy",
+        "formText": {
+            "cat": "A weird heavy thing",
+            "dog": "Smells metallic the human had it earlier.",
+            "human": "A wrench, better becarful with this thing"
+        }
+    },
+    "locker": {
+        "weight": "branching",
+        "forms": {
+            "cat": "Looks cozy inside, but I don't see anything interesting in there.",
+            "dog": "Smells like there was food here, but I don't smell anything interesting in there.",
+            "human": "Nothing useful in this locker..."
+        }
+    },
+    "lockerSp": {
+        "weight": "interat",
+        "text" : "This locker is different from the others, it has a small tear in the lock."
+    },
+    "guardShip": {
+        "weight": "branching",
+        "forms": {
+            "cat": "Guard: Shoo Shoo, how'd you even get on here? This is a restricted area.",
+            "dog": "Guard: Hey Buddy, where's your person, someone must be slacking off if you're on here. Shoo, shoo.",
+            "human": "Guard: You're not in uniform, hurry to your locker before the Captain sees you."
+        }
+    },
+    "guardShipDog": {
+        "weight": "branching",
+        "forms": {
+            "cat": "Guard: Woah there Buddy, calm down just a cat.",
+            "dog": "Guard: Hey Buddy, where's your person, someone must be slacking off if you're on here. Shoo, shoo.",
+            "human": "Guard: Was the dog I saw earlier yours? I thought I saw a dog wandering around earlier if you're looking for him."
+        }
+    },
+    "bookshelf": {
+        "weight": "branching",
+        "forms": {
+            "cat": "Its the things humans always stare at... Oh scratch marks? Those aren't mine though.",
+            "dog": "Oh, are those scratches on the ground? Was some other dog digging here?",
+            "human": "Looks like I can move this..."
+        }
+    },
+    "chef": {
+        "weight": "branching",
+        "forms": {
+            "cat": "Chef: Oh, hey there little guy. Can't come in but I'm sure the other guys can give you treats.",
+            "dog": "Chef: Oh, hey there buddy. Can't come in here, but I'll share some of my food with you when I'm done here.",
+            "human": "Chef: Are you the new recruit? Ugh finally some help around here, get your chef hat before coming in here!"
+        }
+    },
+    "control": {
+        "weight": "branching",
+        "forms": {
+            "cat": "Well this is it, there is no going back. I should ruin their plans and drop it all in the ocean.",
+            "dog": "Well this is it, there is no going back. I should ruin their plans and drop it all in the ocean.",
+            "human": "Well this is it, there is no going back. I should ruin their plans and drop it all in the ocean."
+        }
+    },
+    "hat": {
+        "weight": "light",
+        "formText": {
+            "cat": "Hat",
+            "dog": "Hat",
+            "human": "Hat"
+        }
+
+    },
+    "door6": {
+        "weight" : "branching",
+        "forms": {
+            "cat" : "I can't get through...there's a small blue screen?",
+            "dog": "Smells like someone from the Bunkers was here...",
+            "human" : "I'll need a keycard access to get in there."
+        }
+    },
+    "bed1": {
+        "weight": "branching",
+        "forms": {
+            "cat": "Comfortable... focus Sumi.",
+            "dog": "Smells like old socks and regret...",
+            "human": "Nothing here despite searching thoroughly."
+        }
+    },
+    "bed2": {
+        "weight": "branching",
+        "forms": {
+            "cat": "Cozy... not the time for this.",
+            "dog": "Whoever sleeps here needs to do laundry...",
+            "human": "Nothing useful here."
+        }
+    },
+    "bed3": {
+        "weight": "branching",
+        "forms": {
+            "cat": "Smells a bit different here...",
+            "dog": "Wait... something metallic. Something important is hidden here!",
+            "human": "I searched but couldn't find anything..."
+        }
+    },
+    "bed4": {
+        "weight": "branching",
+        "forms": {
+            "cat": "Just some rumpled sheets.",
+            "dog": "Nothing interesting here... just someone's terrible cologne.",
+            "human": "Nothing here either."
+        }
+    },
+    "bed5": {
+        "weight": "branching",
+        "forms": {
+            "cat": "Warm... someone was just here.",
+            "dog": "Recent scent but nothing hidden here.",
+            "human": "Still nothing... where could it be?"
+        }
+    },
+    "bed6": {
+        "weight": "branching",
+        "forms": {
+            "cat": "Nothing here.",
+            "dog": "Smells like the door back there... this must be the Captain's quarters!",
+            "human": "I can't find anything without a better sense of smell."
+        }
+    },
+    "passInteractive": {
+        "weight": "branching",
+        "forms": {
+            "cat": "Nothing here.",
+            "dog": "Smells like the door back there... this must be the Captain's quarters!",
+            "human": "I can't find anything without a better sense of smell."
+        }
+    },
+    "mouse" : {
+        "weight": "light",
+        "formText": {
+            "cat": "A mouse~",
+            "dog": "",
+            "human" : ""
+        }
+    },
+    "hints": {
+        "level4": {
+            "h1": "Look around carefully. Something on the fllor might be useful.",
+            "h2": "F picks up items, E interacts. The wire connected to that door looks interesting. Pick up items to and try pressing E.",
+            "h3": "Use dog form to follow scent trails. Only cat form can fit through vents.",
+            "h4": "The garbage room is too stinky for cat. Dispose of the garbage in dog form, then follow the new scent trail",
+            "h5": "Find the vent after disposing garbage, go through as cat, then enter the button sequence shown on the board from left to right."
+        },
+        "level5": {
+            "h1": "Only one form can use the bio scanner. Look around the office carefully for interactive items",
+            "h2": "The PC on the upper floor is interactive. Find the right file to send — not all attachments are the right size",
+            "h3": "The printer room is now unlocked. Pick up the paper you see and bring it to the printer as a human",
+            "h4": "Kenji left something behind after his outburst. The tank in the lab looks fragile — one good hit should do it",
+            "h5": "You need two ID cards for the dual scanner at the end of the lab. One comes from Kenji's mess, one from the scientist after breaking the tank with the wrench"
+        },
+        "level6": {
+            "h1": "Parkour through the boxes to get inside. Check every locker — one has something useful inside",
+            "h2": "The chef won't let just anyone into the kitchen. You need to look the part first",
+            "h3": "The chef said don't get trigger happy — but the bell is there for a reason. Ring it when you're ready to move on",
+            "h4": "The bunkers are now open. Switch to dog form up there to sniff out something hidden",
+            "h5": "Use the access card you found to unlock the control room, then interact with the control panel to trigger the final sequence"
+        }
+    },
+    "hints2": {
+        "level4": {
+            "h1": "You've already cracked the code once... what if you thought about it differently?",
+            "h2": "Every direction has an opposite. What happens if you reverse your thinking entirely?",
+            "h3": "Try the opposite of the directions given on the board. Start left to right again."
+        },
+        "level5": {
+            "h1": "The scientist's research notes list some interesting components...",
+            "h2": "Where does the item listed usually show up. Can it be heard?",
+            "h3": "Listen carefully near the lab tanks. Cat form might be small enough to investigate the vents on the right side",
+            "h4": "In cat form go right in the lab all the way to the wall and there will be a vent."
+        },
+        "level6": {
+            "h1": "The bookshelf in the control room area is hiding something. Try interacting with it as a human",
+            "h2": "Read the safe instructions carefully. The bunker nameplates hold the answer",
+            "h3": "First Impressions only - First character/number, letters and then numbers - code has all the letters and then all the numbers",
+            "h4": "Start low - bottom first, always left to right - read from left to right, end at the anchor - last digit is from the captains bunk.",
+            "h5": "LSK249"
+        }
+    
+    }
+    
+}
